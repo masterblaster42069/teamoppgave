@@ -1,0 +1,36 @@
+body
+{
+background-image: url("https://img.freepik.com/free-vector/empty-store-shelves-set.-retail-supe.rmarket-rack_1441-3658.jpg?w=1380&t=st=1692171831~exp=1692172431~hmac=0bfcb283d335fdd9cddd9a066bcdfed082c789bb40a66369a3f359fa6a8e8b78");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.container_coin
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(145, 145, 145);
+    height: 100%;
+    width: 40;
+    border: 5px dashed purple;
+}
+#Shovel{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 10%;
+    size: 2cm;
+}
+#Frus{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    align-items: center;
+}
+#WWW{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 50%;
+}

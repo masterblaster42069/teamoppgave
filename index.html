@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="https://flaviocopes.com/img/avatar.webp" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        .hidden {display: none;}
+    </style>
+</head>
+<body>
+    <div id="toggleInventory">
+        <div class="container_coin"><div id="coin_status"><strong id="coin_amount"></strong></div></div>
+        <div id="inventoryDiv">You have nothing in inventory yet</div>
+    </div>
+    
+
+    <button onclick="showInventory()">showInventory</button>
+    <button onclick="hideInventory()">hideInventory</button>
+    <div id="WWW">
+    <button id="Shovel" onclick="add(' Shovel', -2)"><img src="img/74_source_1595481634.webp" style="height: 300px; width: 200px;">Buy a Shovel</button>
+    <button id="Frus" onclick="add(' FRUS', -5)"><img src="https://bilder.ngdata.no/7044610876672/meny/medium.jpg">Buy a FRUS</button>
+</div>
+</body>
+<script src="./scrypt.js"></script>
+</html>
