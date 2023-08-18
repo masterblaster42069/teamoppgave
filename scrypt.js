@@ -1,7 +1,8 @@
   
   
     var coin = 10000000;
-    
+    document.getElementById('coin_status').innerHTML=coin;
+
 
     
     function showInventory(){
@@ -10,7 +11,7 @@
     }
     function hideInventory(){
         document.getElementById('toggleInventory').classList.add('hidden');
-        
+
     
     }
     var inventoryContent = '';
